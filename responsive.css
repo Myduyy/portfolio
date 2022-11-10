@@ -1,0 +1,216 @@
+/* mobile & tablet */
+@media (max-width: 1023px) {
+
+}
+
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .part-left{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 20%;
+        z-index: 999;
+    }
+    .logo {
+        display: none;
+    }
+    .navbar{
+        margin-top: 50%;
+        text-align: start;
+    }
+    .navbar .menu-list .menu-item{
+        border: none;
+        padding: 16px 0 ;
+
+    }
+/* ================part right=============== */
+    .part-right{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 80%;
+    }
+    .home-info h4{
+        font-size: 26px;
+    }
+    .home-info span{
+        font-size: 32px;
+    }
+    /* .home-img img{
+        width: 50%;
+    } */
+    .intro-container{
+        margin-top: -40%;
+        margin-left: -10%;
+        width: auto;
+    }
+    button{
+        margin: 0;
+    }
+    .home-img img{
+        display: none;
+    }
+    .about-me{
+        margin: 0 0 0 -10%;
+    }
+    .about-me h2{
+        margin: 0 0 40px 0;
+    }
+    .about-me>p{
+        margin: 0 30px 40px 30px;
+    }
+    .btn-download-cv>button{
+        margin-top: 60px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+/* ============Education============ */
+    .education{
+        margin: 0 0 0 -10%;
+    }
+    .education .container{
+        width: 600px;
+        margin-left: 25px;
+    }
+
+/* ============Experiences============ */
+
+    .experiences{
+        margin: 0 0 0 -10%;
+    }
+    .experiences .container{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+/* ============Skill============ */
+    .skills{
+        margin: 0 0 0 -10%;
+
+    }
+    .btn-skills>p{
+        margin: 0 30px 40px 30px;
+    }
+    .btn-skills button{
+        margin-bottom: 40px;
+    }
+    .bars{
+        width: 70%;
+        margin-left: 15%;
+    }
+/* ============Projects============ */
+    .project{
+        margin: 0 0 0 -10%;
+    }
+    .overlay .project-title{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .overlay .project-detail{
+        font-size: 16px;
+    }
+    .overlay a{
+        height: 20px;
+    }
+    .overlay .icon-react i{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .project-item{
+        margin-bottom: 10px;
+    }
+    .project-container{
+        padding: 0 10px 0 10px;
+    }
+
+
+/* ============Activity============ */
+    .activity{
+        margin: 0 0 0 -10%;
+    }
+    .activity-content .activity-details{
+        display: none;
+    }
+    .activity-img img{
+        height: 180px;
+        width: 300px;
+    }
+    .activity-container{
+        margin: 0 2% 0 2%;
+    }
+/* ============contact me============ */
+    .contact{
+        margin: 0 0 0 -10%;
+    }
+    .contact .contact-container{
+        margin-left: 25%;
+    }
+    .contact-container .contact-item i{
+        font-size: 30px;
+    }
+    .contact-container .contact-item h5{
+        font-size: 18px;
+    }
+    .contact-container .contact-item p{
+        font-size: 14px;
+        
+    }
+    .media{
+        margin-left: 80%;
+        height: 60px;
+    }
+    .media a{
+        height: 100px;
+    }
+    .media img{
+        height: 40px;
+        width: 40px;
+    }
+    .media img:hover{
+        height: 45px;
+        width: 45px;
+    }
+    .form-message input{
+        height: 40px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .form-message textarea{
+        height: 120px;
+        border-radius: 30px;
+        margin-left: 0;
+    }
+    .line-1{
+        margin-left: 40px;
+    }
+    .line-2{
+        margin: 0 58px 0 58px ;
+    }
+    .btn-form{
+        width: 100%;
+    }
+    .btn-form button{
+        margin-top: 50px;
+    }
+/* ====================copyright======================= */
+    .copyright{
+        margin: 0 44px 0 0;
+    }
+    .copyright-center{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10px;
+    } 
+}
+
+
+/* mobile */
+@media (max-width: 739px){
+    
+}
+
